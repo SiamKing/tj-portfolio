@@ -1,0 +1,32 @@
+/* ------------------ BASE STYLES ------------------ */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #777777;
+  background-color: #fff !important;
+  line-height: 1.6;
+}
+body.fullscreen-image-background {
+  background-image: url('../assets/images/palm-trees.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+@media screen and (min-width: 1025px) {
+  body.fullscreen-image-background {
+    background-attachment: fixed;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Dosis", sans-serif;
+  font-weight: 300;
+  color: #646464;
+  margin-top: 0;
+}
